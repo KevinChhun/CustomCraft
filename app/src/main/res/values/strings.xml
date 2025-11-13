@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomCraft</string>
+    <string name="title_activity_dummy_profile">DummyProfileActivity</string>
+</resources>

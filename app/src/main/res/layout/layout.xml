@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageButton
+        android:id="@+id/profilePicture"
+        android:layout_width="89dp"
+        android:layout_height="69dp"
+        android:onClick="Click0"
+        android:scaleType="fitXY"
+        android:src="@drawable/testpfp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:src="@drawable/testpfp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="141dp"
+        android:layout_height="110dp"
+        android:onClick="Click1"
+        android:scaleType="fitXY"
+        android:src="@drawable/image1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="141dp"
+        android:layout_height="110dp"
+        android:onClick="Click2"
+        android:scaleType="fitXY"
+        android:src="@drawable/image2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="141dp"
+        android:layout_height="110dp"
+        android:onClick="Click3"
+        android:scaleType="fitXY"
+        android:src="@drawable/image3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[3]" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="141dp"
+        android:layout_height="110dp"
+        android:onClick="Click4"
+        android:scaleType="fitXY"
+        android:src="@drawable/image4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[5]" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="141dp"
+        android:layout_height="110dp"
+        android:onClick="Click5"
+        android:scaleType="fitXY"
+        android:src="@drawable/image5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[10]" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="141dp"
+        android:layout_height="110dp"
+        android:onClick="Click6"
+        android:scaleType="fitXY"
+        android:src="@drawable/uploaf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752"
+        tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[8]" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:text="Profile User"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="282dp"
+        android:layout_height="57dp"
+        android:text="Test Description goes here, I draw art"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Works"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="73dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="228dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
